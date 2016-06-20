@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="encryptio.oefening.pkg2.FXMLEncryptionController">
+   <children>
+      <PasswordField fx:id="tfPassword" layoutX="113.0" layoutY="151.0" />
+      <TextField fx:id="tfLoginname" layoutX="113.0" layoutY="80.0" />
+      <Text layoutX="175.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="187.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <CheckBox fx:id="checkBoxEncrypt" layoutX="113.0" layoutY="215.0" mnemonicParsing="false" text="Encrypt" />
+      <CheckBox fx:id="checkBoxDecrypt" layoutX="113.0" layoutY="249.0" mnemonicParsing="false" text="Decrypt" />
+      <Button fx:id="btnAction" layoutX="237.0" layoutY="244.0" mnemonicParsing="false" onAction="#cryptAction" text="Action" />
+      <TextArea fx:id="taMessage" layoutX="360.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnLogin" layoutX="236.0" layoutY="210.0" mnemonicParsing="false" onAction="#loginAction" text="Login" />
+   </children>
+</AnchorPane>
